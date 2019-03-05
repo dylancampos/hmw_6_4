@@ -1,0 +1,167 @@
+ if (month == "January")
+		{
+			cout << "\nList of students who were born in January: " << endl;
+			for (int i = 0; i < friends.size(); i++)
+			{
+				if (friends[i].get_bday().substr(0,2) == "01")
+				{
+					cout << friends[i].get_name() << " " << friends[i].get_bday() << endl;
+				} else if(friends[i].get_bday().substr(0, 2) != "01") {
+					cout << "No students were born in January" << endl;
+					break;
+				}
+			}
+		}
+		else if (month == "February")
+		{
+			cout << "\nList of students who were born in February: " << endl;
+			for (int i = 0; i < friends.size(); i++)
+			{
+				if (friends[i].get_bday().substr(0, 2) == "02")
+				{
+					cout << friends[i].get_name() << " " << friends[i].get_bday() << endl;
+				} else if (friends[i].get_bday().substr(0,2) != "02") {
+					cout << "No students were born in February" << endl;
+					break;
+				}
+			}
+		}
+		else if (month == "March")
+		{
+			cout << "\nList of students who were born in March: " << endl;
+			for (int i = 0; i < friends.size(); i++)
+			{
+				if (friends[i].get_bday().substr(0, 2) == "03")
+				{
+					cout << friends[i].get_name() << " " << friends[i].get_bday() << endl;
+				} else if (friends[i].get_bday().substr(0, 2) != "03") {
+					cout << "No students were born in March" << endl;
+					break;
+				}
+			}
+		}
+		else if (month == "April")
+		{
+			cout << "\nList of students who were born in April: " << endl;
+			for (int i = 0; i < friends.size(); i++)
+			{
+				if (friends[i].get_bday().substr(0, 2) == "04")
+				{
+					cout << friends[i].get_name() << " " << friends[i].get_bday() << endl;
+				} else if (friends[i].get_bday().substr(0, 2) != "04") {
+					cout << "No students were born in April" << endl;
+				}
+			}
+		}
+		else if (month == "May")
+		{
+			cout << "\nList of students who were born in May: " << endl;
+			for (int i = 0; i < friends.size(); i++)
+			{
+				if (friends[i].get_bday().substr(0, 2) == "05")
+				{
+					cout << friends[i].get_name() << " " << friends[i].get_bday() << endl;
+				} else if (friends[i].get_bday().substr(0, 2) != "05") {
+					cout << "No students were born in May" << endl;
+				}
+			}
+		}
+
+		else if (month == "June")
+		{
+			cout << "\nList of students who were born in June: " << endl;
+			for (int i = 0; i < friends.size(); i++)
+			{
+				if (friends[i].get_bday().substr(0, 2) == "06")
+				{
+					cout << friends[i].get_name() << " " << friends[i].get_bday() << endl;
+				} else if (friends[i].get_bday().substr(0, 2) != "06") {
+					cout << "No students were born in June" << endl;
+				}
+			}
+		}
+		else if (month == "July")
+		{
+			cout << "\nList of students who were born in July: " << endl;
+			for (int i = 0; i < friends.size(); i++)
+			{
+				if (friends[i].get_bday().substr(0, 2) == "07")
+				{
+					cout << friends[i].get_name() << " " << friends[i].get_bday() << endl;
+				} else if (friends[i].get_bday().substr(0, 2) != "07") {
+					cout << "No students were born in July" << endl;
+				}
+			}
+		}
+
+		else if (month == "August")
+		{
+			cout << "\nList of students who were born in August: " << endl;
+			for (int i = 0; i < friends.size(); i++)
+			{
+				if (friends[i].get_bday().substr(0, 2) == "08")
+				{
+					cout << friends[i].get_name() << " " << friends[i].get_bday() << endl;
+				} else if (friends[i].get_bday().substr(0, 2) != "08") {
+					cout << "No students were born in August" << endl;
+				}
+			}
+		}
+	
+		else if (month == "September")
+		{
+			cout << "\nList of students who were born in September: " << endl;
+			for (int i = 0; i < friends.size(); i++)
+			{
+				if (friends[i].get_bday().substr(0, 2) == "09")
+				{
+				cout << friends[i].get_name() << " " << friends[i].get_bday() << endl;
+				} else if (friends[i].get_bday().substr(0, 2) != "01" && "02" && "03" && "04" && "05" && "06"&& "07" && "08" && "09"&&"10" && "11" && "12") {
+					cout << "No students were born in September" << endl;
+				}
+			}	
+		}
+		else if (month == "October")
+		{
+			cout << "\nList of students who were born in October: " << endl;
+			for (int i = 0; i < friends.size(); i++)
+			{
+				if (friends[i].get_bday().substr(0, 2) == "10")
+				{
+					cout << friends[i].get_name() << " " << friends[i].get_bday() << endl;
+				} else if (friends[i].get_bday().substr(0, 2) != "10") {
+		cout << "No students were born in October" << endl;
+			}
+			}
+		}
+		else if (month == "November")
+		{
+		cout << "\nList of students who were born in November: " << endl;
+		for (int i = 0; i < friends.size(); i++)
+		{
+			if (friends[i].get_bday().substr(0, 2) == "11")
+			{
+				cout << friends[i].get_name() << " " << friends[i].get_bday() << endl;
+			} else if (friends[i].get_bday().substr(0, 2) != "11") {
+		cout << "No students were born in November" << endl;
+			}
+		}
+		}
+		else if (month == "December")
+		{
+		cout << "\nList of students who were born in December: " << endl;
+		for (int i = 0; i < friends.size(); i++)
+		{
+			if (friends[i].get_bday().substr(0, 2) == "12")
+			{
+				cout << friends[i].get_name() << " " << friends[i].get_bday() << endl;
+			} else if (friends[i].get_bday().substr(0, 2) != "12") {
+				cout << "No students were born in December" << endl;
+			}
+		}
+		}
+
+		if (month != "January" || "February" || "March"|| "April"|| "May"|| "June" || "July" || "August" || "September" || "October"|| "November" || "December" )
+		{
+		cout << "There is no such month. Try Again." << endl;
+		}
